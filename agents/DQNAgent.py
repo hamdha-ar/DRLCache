@@ -5,7 +5,7 @@ https://morvanzhou.github.io/tutorials/
 We add neccessary decision procedures for our cache policy.
 
 Using:
-Tensorflow: 1.0
+Tensorflow
 """
 
 import numpy as np
