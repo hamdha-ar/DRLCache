@@ -55,8 +55,8 @@ if __name__ == "__main__":
             verbose=0
         )
         agents['Random'] = RandomAgent(env.n_actions)
-        agents['LFU'] = LRUAgent(env.n_actions)
-        agents['DQN'] = LFUAgent(env.n_actions)
+        agents['LRU'] = LRUAgent(env.n_actions)
+        agents['LFU'] = LFUAgent(env.n_actions)
         agents['MRU'] = MRUAgent(env.n_actions)
 
         for (name, agent) in agents.items():
