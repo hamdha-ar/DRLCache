@@ -1,13 +1,3 @@
-"""
-This code is partially from Morvan Zhou
-https://morvanzhou.github.io/tutorials/
-
-We add neccessary decision procedures for our cache policy.
-
-Using:
-Tensorflow
-"""
-
 import numpy as np
 import pandas as pd
 import tensorflow.compat.v1 as tf
